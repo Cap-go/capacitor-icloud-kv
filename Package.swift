@@ -2,11 +2,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "CapgoCapacitorICloudKV",
+    name: "CapgoCapacitorIcloudKv",
     platforms: [.iOS(.v15)],
     products: [
         .library(
-            name: "CapgoCapacitorICloudKV",
+            name: "CapgoCapacitorIcloudKv",
             targets: ["ICloudKVPlugin"])
     ],
     dependencies: [
