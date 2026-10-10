@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+
+    <meta
+      name="viewport"
+      content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+<title>@capgo/capacitor-icloud-kv</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>@capgo/capacitor-icloud-kv</h1>
+      <p class="lead">Write a value, then read it back on another device signed in to the same iCloud account.</p>
+
+      <label for="kv-key">Key</label>
+      <input id="kv-key" type="text" value="demo" />
+      <label for="kv-value">Value</label>
+      <input id="kv-value" type="text" value="Hello from iCloud" />
+
+      <div class="actions">
+        <button id="kv-set">Set</button>
+        <button id="kv-get">Get</button>
+        <button id="kv-all">Get all</button>
+        <button id="kv-available">Is available</button>
+      </div>
+
+      <pre id="plugin-output">Press a button to run an action.</pre>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
