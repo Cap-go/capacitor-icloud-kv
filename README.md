@@ -2,7 +2,7 @@
 
 Keep small app state (progress, settings, streaks) when the user gets a new phone. On iOS it is synced through iCloud key-value storage to every device on the same Apple Account; on Android it is restored by Android Backup on a new device.
 
-<a href="https://capgo.app/?ref=plugin_icloud_kv"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-icloud-kv" alt="Capgo - Instant updates for Capacitor" /></a>
+<a href="https://capgo.app/?ref=plugin_icloud_kv"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-icloud-kv" alt="Capgo - Build Capacitor apps with AI, ship updates instantly" /></a>
 
 <div align="center">
   <p><b>Capgo</b>: push fixes to your Capacitor users in minutes, build signed iOS and Android apps without a Mac, and roll back in one click.</p>
@@ -10,6 +10,8 @@ Keep small app state (progress, settings, streaks) when the user gets a new phon
   <p>14-day unlimited free trial. No credit card required</p>
   <p><a href="https://capgo.app/consulting/?ref=plugin_icloud_kv">Missing a feature? We'll build the plugin for you 💪</a></p>
 </div>
+
+> 🤖 **Building with an AI coding agent?** Install [Capgo skills](https://capgo.app/skills/?ref=plugin_icloud_kv) so Claude Code, Codex, Cursor, Copilot, or Gemini CLI know how to install and use `@capgo/capacitor-icloud-kv` in your Capacitor app: `npx skills add Cap-go/capgo-skills`. Then ask your agent: *"Add @capgo/capacitor-icloud-kv to my Capacitor app and wire it up."* [Agent setup guides](https://capgo.app/agents/?ref=plugin_icloud_kv) · [Hosted MCP](https://capgo.app/docs/ai/mcp/?ref=plugin_icloud_kv)
 
 ## Key features
 
