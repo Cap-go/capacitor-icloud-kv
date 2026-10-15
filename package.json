@@ -1,6 +1,6 @@
 {
   "name": "@capgo/capacitor-icloud-kv",
-  "version": "8.1.1",
+  "version": "8.1.2",
   "description": "Capacitor plugin to keep small app state in iCloud key-value storage on iOS and Android Backup on Android, so it survives a new phone.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
